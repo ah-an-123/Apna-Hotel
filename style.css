@@ -1,0 +1,75 @@
+.card-img, .card-img-bottom, .card-img-top {
+  width: 100%;
+  height: 185px;
+}
+  #location{
+    font-weight: bolder;
+    /* background-color: rgb(102, 222, 10); */
+    width: 250px;
+    height: 50px;
+    margin:auto;
+    animation-name:Ani;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    color: red;
+  }
+  @keyframes Ani{
+    from{
+      width: 150px;
+      color: yellow;
+      /* background-color: red; */
+      font-size: x-small;
+      border-radius: 50px;
+    }
+    to{
+      width: 300px;
+      /* background-color: yellow; */
+      border-radius:10px ;
+    }
+  }
+  #offer{
+   color: rgb(41, 249, 9);
+   font-weight: bolder;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   animation-name: Ani2;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   height: 40px;
+   margin: auto;
+  }
+  @keyframes Ani2 {
+    from{
+       font-size: x-small;
+    }
+    to{
+      width: 500px;
+    }
+  }
+  #bookingForm{
+    border: 2px solid rgb(140, 207, 6);
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: beige;
+    margin-bottom: 15px;
+  }
+  #contactBody{
+    background-image: url(/ContactDp.jpg);
+    background-size: cover;
+  }
+  #footer{
+    background-color: blanchedalmond;
+  }
+  #foto{
+    border-radius: 12px;
+    height: 600px;
+    margin-bottom: 12px;
+  }
+
+  @media(min-width:100px) and (max-width:400px) {
+    #foto{
+      border-radius: 15px;
+      height: 300px;
+      margin-bottom: 5px;
+    }
+  }
